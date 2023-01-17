@@ -23,6 +23,7 @@ async function bootstrap() {
 	const config = new DocumentBuilder()
 		.setTitle('Testus API')
 		.setDescription('Testus API dev decumentation')
+		.setExternalDoc('API JSON', 'http://localhost:3000/api-json')
 		.setVersion('1.0')
 		.build();
 	const document = SwaggerModule.createDocument(app, config);

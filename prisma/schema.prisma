@@ -26,6 +26,6 @@ model User {
 enum UserRoles {
   SUPERUSER
   ADMIN
-  SUPPORT
-  USER
+  NORMAL
+	GUEST
 }
